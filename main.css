@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900|Roboto');
+
+#container {
+    width: 625px;
+    color: white;
+    margin: 0 auto;
+}
+
+button {
+    background-color: rgba(211, 211, 211, 0.2);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin: 5px 6px;
+    padding: 6px 10px;
+    display: inline-block;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Marriweather', serif;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    line-height: 1.6;
+    padding-bottom:30px;
+    margin:  0;
+}
+#yellowBackground { 
+    background-image: url('žuta.jpg');
+    background-size: cover;
+}
+
+#pinkBackground { 
+    background-image: url('roza.jpg');
+    background-size: cover;
+}
+
+#grayBackground { 
+    background-image: url('telefon.jpg');
+    background-size: cover;
+}
+
+.cards {
+    padding: 30px 100px 15px 25px;
+    border-bottom: 25px solid lightgray;
+}
